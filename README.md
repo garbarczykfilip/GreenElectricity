@@ -20,7 +20,7 @@
 
 1. `/api/authorize`, typ: `POST`, przyjmuje parametry `name` i `password`. Zwraca token użytkownika.
 
-### Ogólnodostępne metody
+### Metody wymagające autoryzacji
 
 Aby móc użyć poniższych metod należy wcześniej wygenerowany token dodać w nagłówku `Authorization: Bearer <TOKEN>`.
 
