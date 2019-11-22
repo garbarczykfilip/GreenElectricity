@@ -19,3 +19,13 @@
 ### Ogólnodostępne metody
 
 1. Url: `/api/authorize`, typ: `POST`, przyjmuje parametry `name` i `password`. Zwraca token użytkownika.
+
+### Ogólnodostępne metody
+
+Aby móc użyć poniższych metod należy wcześniej wygenerowany token dodać w nagłówku `Authorization: Bearer <TOKEN>`.
+
+1. Url: `/api/publishers/list`, typ: `GET`, nie przyjmuje parametrów. Zwraca listę wydawnictw.
+
+2. Url: `/api/magazines/search`, typ: `GET`, przyjmuje opcjonalne parametry `name`, `publisher_id`, oraz `page`. Zwraca pasujące rekordy z obsługą stronicowania.
+
+3. Url: `/api/magazines/{id}`, typ: `GET`, przyjmuje parametr `id`. Zwraca pojedynczy magazyn, jeżeli istnieje.
