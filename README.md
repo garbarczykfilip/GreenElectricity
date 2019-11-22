@@ -1,6 +1,6 @@
 # GreenElectricity
 
-### Uruchomienie aplikacji
+## Uruchomienie aplikacji
 
 1. Sklonuj repozytorium do odpowiedniego folderu.
 
@@ -13,3 +13,9 @@
 6. Uruchom polecenie `php artisan key:generate`.
 
 7. Uruchom polecenie `php artisan migrate --seed`.
+
+## Metody aplikacji
+
+### Ogólnodostępne metody
+
+1. Url: `/api/authorize`, typ: `POST`, przyjmuje parametry `name` i `password`. Zwraca token użytkownika.
