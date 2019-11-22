@@ -1,1 +1,3 @@
 # GreenElectricity
+
+### Uruchomienie aplikacji
