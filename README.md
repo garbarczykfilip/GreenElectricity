@@ -18,7 +18,7 @@
 
 ### Ogólnodostępne metody
 
-1. Url: `/api/authorize`, typ: `POST`, przyjmuje parametry `name` i `password`. Zwraca token użytkownika.
+1. `/api/authorize`, typ: `POST`, przyjmuje parametry `name` i `password`. Zwraca token użytkownika.
 
 ### Ogólnodostępne metody
 
