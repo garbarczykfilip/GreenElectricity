@@ -10,8 +10,4 @@
 
 4. Uruchom polecenie `php artisan jwt:key`.
 
-5. Zmien plik `.env.example` na `.env` i edytuj:
-
-a) skonfiguruj połączenie z bazą danych mysql;
-
-b) zmień parametr `APP_DEBUG` na `false`.
+6. Zmien plik `.env.example` na `.env`, skonfiguruj w nim połączenie z bazą danych mysql, oraz zmień parametr `APP_DEBUG` na `false`.
