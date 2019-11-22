@@ -6,10 +6,10 @@
 
 2. Uruchom polecenie `composer install`.
 
-3. Uruchom polecenie `php artisan key:generate`.
+3. Zmien plik `.env.example` na `.env`, skonfiguruj w nim połączenie z bazą danych mysql, oraz zmień parametr `APP_DEBUG` na `false`.
 
 4. Uruchom polecenie `php artisan jwt:key`.
 
-6. Zmien plik `.env.example` na `.env`, skonfiguruj w nim połączenie z bazą danych mysql, oraz zmień parametr `APP_DEBUG` na `false`.
+6. Uruchom polecenie `php artisan key:generate`.
 
 7. Uruchom polecenie `php artisan migrate --seed`.
